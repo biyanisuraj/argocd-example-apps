@@ -7,7 +7,7 @@ metadata:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: argo-apps-test-2
+    namespace: helm-hooks
     server: {{ .Values.spec.destination.server }}
   project: test
   source:
