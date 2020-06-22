@@ -3,7 +3,7 @@ spec:
     server: https://kubernetes.default.svc
   source:
     repoURL: https://github.com/biyanisuraj/argocd-example-apps
-    targetRevision: 94ad32f4ea26798997774ffc3e20fbfa8e0d8c21
+    targetRevision: HEAD
   syncPolicy:
     automated:
       prune: true
