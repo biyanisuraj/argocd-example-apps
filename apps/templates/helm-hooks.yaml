@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: helm-hooks
-  namespace: argo-apps-test-1
+  namespace: helm-hooks
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:

@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: sync-waves
-  namespace: examples
+  namespace: sync-waves
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
